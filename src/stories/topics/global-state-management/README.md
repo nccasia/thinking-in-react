@@ -1,0 +1,1 @@
+# Quản lý Global State thế nào

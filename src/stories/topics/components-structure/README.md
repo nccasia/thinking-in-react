@@ -1,0 +1,1 @@
+# Cấu trúc Component thế nào thì ok
