@@ -132,7 +132,26 @@ Với một FE dev luôn phải quan niệm cho mình một UI component đến 
 
 ### Consistency
 
+![](https://miro.medium.com/max/793/1*SlAPqCmjtwvRsn0Kszi7oA.png)
+
 ### Provide Feedback
+
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Flevelup.gitconnected.com%2Fa-simple-way-to-create-a-hover-animation-for-your-buttons-using-css-8dff77245690&psig=AOvVaw1QlqZvSeuyrHouRzi7vdoB&ust=1615946379747000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJi5lcPbs-8CFQAAAAAdAAAAABAa)
+
+Mỗi hành động mang tính tương tác người dùng đề mong đợi mội phản hồi đề họ biết họ được làm gì và không được làm gì tiếp theo.
+
+ khi hover vào 1 element clickable: 
+
+```css
+a:hover {
+	cursor: pointer;
+}
+```
+
+![](https://bashooka.com/wp-content/uploads/2019/07/css-js-file-upload-example-12.jpg)
+
+
+![](https://i.ytimg.com/vi/HnTWyfuN_Do/maxresdefault.jpg)
 
 ### Peromance
 
