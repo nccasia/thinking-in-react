@@ -2,16 +2,19 @@
 
 ![](https://webfuel.blob.core.windows.net/webfuel-filesystem/4fba2265-633b-bac3-efd1-08d3e0716398/blog/responsive-design-1.png)
 
+Front end Application
+
 > Thê nào là một UI tốt?
 
 Trước khi đi vào các topic sâu hơn, trước tiền chúng ta cần thông nhất một số quan điểm chung về một UI tốt là như thế nào, trên cơ sở đó các topic tiếp theo sẽ bóc tách từng phần của vấn đề và trả lời câu hỏi **Làm sao để xây dựng được một UI tốt?**
 
 **Một số quan điểm về UI tốt**
 
-- đẹp lung linh?
-- dễ dùng?
-- dễ maintain?
-- responsive ?
+- Đẹp lung linh?
+- Dễ dùng?
+- Dễ maintain?
+- Responsive ?
+- Nhanh
 
 **Vấn đề ở đây là gì**
 - mỗi người sẽ có một tiêu chuẩn khác nhau
@@ -63,6 +66,65 @@ Phần tiếp theo chúng ta sẽ thảo luận qua một số vấn đè ảnh 
 
 ### UI Component States 
 ![](https://lh5.googleusercontent.com/AMF_6BlBGPtCEcdppXRMF4TC6TM4SLriyaS48Q8Km9RwzLW6ZltYbuHOAwel6YBTJREmnvIhxVt-bbOOCNSQDUQUdEwAbok5frss4Bc8jEAuhKH_tfQycUTSub1G52yFDxjlj3QI)
+
+Thường thì trong design hoặc mockup, thậm chí là trong task description chỉ provide cho chúng ta các UI design ở 1 trạng thái lý tưởng, nhưng như thế liệu đã đủ hay chưa?
+
+Trên thực tế các UI components của chúng ta sẽ phải đối phó với nhiều trạng thái hơn thế ngoài trạng thái lý tưởng ra thì chúng ta phải hết sức để ý đến các trạng thái 
+
+Đôi khi chúng ta cũng không cần thiết implement hết tất cả các state, nhưng phải luôn đảm bảo là sẽ cần implement bất kỳ lúc nào, bới vì nếu dự án sống đủ lâu sẽ đến lúc chúng ta sẽ cần 
+implement nó. nên tại sao không chừa chỗ ra từ đầu.
+
+Với một FE dev luôn phải quan niệm cho mình một UI component đến một ngày sẽ cần đủ các states. 
+
+> hãy cảnh giác khi nghe câu  **Component này chỉ đơn gian hiện thị như thế này thôi là được.**,  tự chừa con đường cho mình :)
+
+#### The Ideal State
+
+![](https://miro.medium.com/max/1400/1*6hKDlrLKDtolPoaeWvg0Rg.png)
+
+- nếu data y như design thì sẽ hiện thì như thế nào?
+- nếu thay đổi kích thước màn hình thì có gì bị vỡ không?
+
+Đây là trang thái cơ bản và rõ ràng nhất
+
+#### The Blank State
+
+![](https://miro.medium.com/max/1400/1*jvDAok82Rn-Jq15JtZMGWA.png)
+
+-  nếu không có data component sẽ hiển thị gì?
+- nếu user vào trang lần đầu thì sẽ thấy gì?
+- nếu search ko ra kết quả thì hiện gì?
+- nếu người dùng xoá hết data thì sẽ hiện gì?
+
+#### The Loading State
+
+![](https://miro.medium.com/max/1400/0*1k4ZRR565pe-J0ln.gif)
+
+- nếu đang loading thì màn hình hiện gì?
+- nếu mạng cực kỳ chậm thì sao?
+- nếu trong lúc đang load user thực hiện action khác thì sao?
+
+> Tips: Chrome network 3G Mode
+
+#### The Partial State
+
+![](https://miro.medium.com/max/1400/1*Qs66iwT4TPRBR7MWi_805g.png)
+
+#### The Imperfect State
+
+ ![](https://miro.medium.com/max/1400/1*x8EBEoRAHSVG3VTfrhs8jg.png)
+
+#### The Interactive State
+
+![](https://miro.medium.com/max/1400/1*O6a76lYE3XvauSBvQJA6tQ.png)
+
+#### The Success States
+
+![](https://miro.medium.com/max/1400/1*arupaxyBBZxnnyULBd6Rzw.png)
+
+#### The Error State
+
+![](https://miro.medium.com/max/4800/1*mQaM-gAFe9WzolS_vQoe4A.png)
 
 ### Responsive/Adaptive
 
@@ -130,5 +192,5 @@ Phần tiếp theo chúng ta sẽ thảo luận qua một số vấn đè ảnh 
 - [10 Rules of Good UI Design to Follow On Every Web Design Project](https://www.elegantthemes.com/blog/resources/10-rules-of-good-ui-design-to-follow-on-every-web-design-project)
 - [What makes a good user interface?
 ](http://uw714doc.sco.com/en/SDK_vtcl/vtclgN.style_goodui.html#:~:text=A%20clear%20interface%20helps%20prevent,and%20consistent%20with%20one%20another.)
-- [The Nine States of Design](https://uxdesign.cc/designing-for-different-ui-states-87d60130f85f)
-- [Designing for different states in the UI](https://medium.com/swlh/the-nine-states-of-design-5bfe9b3d6d85)
+- [Designing for different states in the UI](https://uxdesign.cc/designing-for-different-ui-states-87d60130f85f)
+- [The Nine States of Design](https://medium.com/swlh/the-nine-states-of-design-5bfe9b3d6d85)
