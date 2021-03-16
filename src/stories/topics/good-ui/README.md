@@ -204,6 +204,11 @@ a:hover {
 ### Testing 
 ![](https://image.slidesharecdn.com/jesttalk-enterjs-180622081155/95/jest-frontend-testing-leicht-gemacht-enterjs2018-7-638.jpg?cb=1529655223)
 
+
+## Good Front end developer?
+
+- Hãy quan tâm đến ``UX`` và ``DX``
+
 ## References:
 - [35 quick tips to improve web performance](https://uxdesign.cc/35-quick-tips-about-web-performance-114b8fab0d6)
 - [Characteristics of a Good Web application](https://www.zensar.com/blogs/2016/06/characteristics-of-a-good-web-application/)
