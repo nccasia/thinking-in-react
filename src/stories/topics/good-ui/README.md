@@ -110,19 +110,21 @@ Với một FE dev luôn phải quan niệm cho mình một UI component đến 
 
 ![](https://miro.medium.com/max/1400/1*Qs66iwT4TPRBR7MWi_805g.png)
 
+
 #### The Imperfect State
 
  ![](https://miro.medium.com/max/1400/1*x8EBEoRAHSVG3VTfrhs8jg.png)
+
 
 #### The Interactive State
 
 ![](https://miro.medium.com/max/1400/1*O6a76lYE3XvauSBvQJA6tQ.png)
 
-#### The Success States
+#### The Error State
 
 ![](https://miro.medium.com/max/1400/1*arupaxyBBZxnnyULBd6Rzw.png)
 
-#### The Error State
+#### The Success States
 
 ![](https://miro.medium.com/max/4800/1*mQaM-gAFe9WzolS_vQoe4A.png)
 
@@ -132,11 +134,27 @@ Với một FE dev luôn phải quan niệm cho mình một UI component đến 
 
 ### Consistency
 
-![](https://miro.medium.com/max/793/1*SlAPqCmjtwvRsn0Kszi7oA.png)
+#### Visual Consistency
+
+1. Typography
+![](https://miro.medium.com/max/2400/1*s6OqC7mSHfIaHLQHvlYUGw.png)
+
+2. UI Elements
+- Spatial 
+- Images 
+- Size 
+
+3. Color
+
+#### Behavior Consistency
+
+![](https://www.areteworks.com/wp-content/uploads/2018/10/popup-300x222.png)
+
+[https://ux.stackexchange.com/a/1077](https://ux.stackexchange.com/a/1077)
 
 ### Provide Feedback
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Flevelup.gitconnected.com%2Fa-simple-way-to-create-a-hover-animation-for-your-buttons-using-css-8dff77245690&psig=AOvVaw1QlqZvSeuyrHouRzi7vdoB&ust=1615946379747000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJi5lcPbs-8CFQAAAAAdAAAAABAa)
+![](https://miro.medium.com/max/1000/1*U1xCz37uah8qJQgDh6X56g.jpeg)
 
 Mỗi hành động mang tính tương tác người dùng đề mong đợi mội phản hồi đề họ biết họ được làm gì và không được làm gì tiếp theo.
 
@@ -153,9 +171,11 @@ a:hover {
 
 ![](https://i.ytimg.com/vi/HnTWyfuN_Do/maxresdefault.jpg)
 
-### Peromance
+### Performance
 
-![](https://designforfounders.com/wp-content/uploads/2015/01/05.gif)
+![](https://treo.sh/assets/files/metrics-2x.e4e87e4.jpeg)
+
+[https://web.dev/user-centric-performance-metrics/](https://web.dev/user-centric-performance-metrics/)
 
 ### Tools 
 - webpack-bundle-analyzer
@@ -178,13 +198,37 @@ a:hover {
 
 ![](https://hackernoon.com/hn-images/0*pmgC6tviGfb1MSOc.jpg)
 
+Như đã gới thiệu trước đó **DX** đóng vai trò rất quan trọng trong thành công của dự án pm cũng như sự thành công của một sp pm trên trị trường.
+
+Có nhiều yếu tố ảnh hưởng đến **DX** dưới đây chúng ta sẽ đi qua một số.
+
 ### Clear structure
 
+Một vài kiểu structure
 - Flat structure
 - Modulize Structure
 - View state Structure
 
 ![](https://michalzalecki.com/posts/elegant-frontend-architecture-domain@2x.jpg)
+![](https://miro.medium.com/max/1400/1*T_Q66EkNEhca6TyrvY1xBQ.gif)
+
+Cấu trúc thế nào là tốt.
+
+- Tách biệt
+- tái sử dụng
+- rõ ràng
+- dễ tean work
+- dễ maintain
+
+Các Rules
+- **open for extension, closed for modification**
+- **Single source of truth**
+- **One Way Data Flow**
+- **Separating business and UI logic**
+- **Lifting State Up**
+
+![Lifting State Up](https://images.viblo.asia/f1be4df7-31a3-4d6f-959e-e7540bc81167.png)
+
 
 ### Code spliting
 ![](https://cdn.filestackcontent.com/tLOD9fSJT8qoyihLuZU0)
@@ -192,17 +236,68 @@ a:hover {
 ### Error Handling
 ![](https://i.stack.imgur.com/fRuZJ.png)
 
+
+Các loại lỗi
+- Server errors. These are errors returned by the API and include fatal errors, request errors and logic errors.
+- Network errors. These errors occur when the API is not accessible or when a chunk of code cannot be loaded when code splitting is used.
+- Routing errors. These errors indicate that the URL in the browser is invalid and cannot be mapped to a valid route.
+- Authorization errors. These errors occur when the user is not authenticated or doesn’t have access to the given page or data.
+- Form validation errors. These errors are displayed when some value entered by the user is invalid.
+- Fatal errors. Other kinds of errors that are usually the result of a programmer’s error in the application code fall into this category.
+
+Cần quan tâm
+- Error pages
+- Error Interceptors
+- Error boundary
+- Error Alert
+
+Các công cụ:
+- Error boudary
+- try catch
+- Sentry crashlytics
+- Firebase crashlytics 
+
 ### Workflow
 ![](https://topdev.vn/blog/wp-content/uploads/2018/05/ci-cd-intro.png)
 
+- CI/CD
+- Docker
+- Webpack
 ### Teamwoking
 ![](https://cdn5.vectorstock.com/i/1000x1000/06/09/a-young-team-working-together-to-solve-a-problem-vector-21750609.jpg)
 
 ### Reuseable 
-![](https://miro.medium.com/max/1600/1*UPtMMr8C5HRNQHjMHlizSg.gif)
+
+![](https://miro.medium.com/max/793/1*SlAPqCmjtwvRsn0Kszi7oA.png)
+
+![](https://miro.medium.com/max/1018/1*0lvyAHxRcP7HTDaToUsjbg.png)
+
+Case study `Bit.dev`
+[](https://bit.dev/)
+
+- Micro front end
+- Yarn/Npm workspace
+- create react libraly
 
 ### Testing 
 ![](https://image.slidesharecdn.com/jesttalk-enterjs-180622081155/95/jest-frontend-testing-leicht-gemacht-enterjs2018-7-638.jpg?cb=1529655223)
+
+chúng ta chia FE testing ra các level
+- **End to End**: A helper robot that behaves like a user to click around the app and verify that it functions correctly. Sometimes called "functional testing" or e2e.
+- **Integration**: Verify that several units work together in harmony.
+- **Unit**: Verify that individual, isolated parts work as expected.
+- **Static**: Catch typos and type errors as you write the code.
+
+Các công cụ:
+
+- Jest
+- Mocha 
+- Chai
+
+- Enzym 
+
+- cypress.
+- Selenium
 
 
 ## Good Front end developer?
