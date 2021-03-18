@@ -17,26 +17,26 @@ Trước khi đi vào các topic sâu hơn, trước tiền chúng ta cần thô
 - Nhanh
 
 **Vấn đề ở đây là gì**
-- mỗi người sẽ có một tiêu chuẩn khác nhau
-- không đồng nhất trong quan điểm
-- hướng tới nhưng muc tiêu khác nhau
+- Mỗi người sẽ có một tiêu chuẩn khác nhau
+- Không đồng nhất trong quan điểm
+- Hướng tới những mục tiêu khác nhau
 
 ## Một góc nhìn
 
-Chúng ta cần một góc nhìn chung để phân tích tiếp trong các topics sau, Chúng ta có thể tham khảo qua một góc nhìn. Đây hoàn toàn là quan điểm cá nhân của mình mà chỉ mang tính chất đặt vấn đề và tham khảo.
+Chúng ta cần một góc nhìn chung để phân tích tiếp trong các topics sau, Chúng ta có thể tham khảo qua một góc nhìn. Đây hoàn toàn là quan điểm cá nhân mà chỉ mang tính chất đặt vấn đề và tham khảo.
 
 > Một UI tốt có thể được đánh giá qua hai khía cạnh  **UX** và **DX**
 
 - **UX** User Experience
 - **DX** Developer Experience
 
-Như mọi người đều biết **User Experience** là tối quan trọng, nhất là trong thời điểm hiện tại, người dùng có rất nhiều lựa chọn và đều là những lựa chọn tốt nếu trái nghiệm không tốt người dùng sẽ có ngay lựa chọn khác. Có thể bạn nghĩ điều tày không ảnh hưởng đến dev nhưng nhìn chung thì chất lượng sp đã không đáp ứng được thị trường thì việc bị đào thải là điều tất yếu.
+Như mọi người đều biết **User Experience** là tối quan trọng, nhất là trong thời điểm hiện tại, người dùng có rất nhiều lựa chọn và đều là những lựa chọn tốt nếu trái nghiệm không tốt, người dùng sẽ có ngay lựa chọn khác. Có thể bạn nghĩ điều này không ảnh hưởng đến dev nhưng nhìn chung thì chất lượng sp đã không đáp ứng được thị trường thì việc bị đào thải là điều tất yếu.
 
-Khái niệm **Developer Experience** có lẽ không phải thứ mà được nhiều người nhắc đến và quan tâm, chính xác hơn thì mình muốn nhắc đển development experience hay trải nghiệm phát triển một sản phẩm, và khi nhắc đến quá trình phát triển thì những người liên quan từ PM, Dev Team, PO...
+Khái niệm **Developer Experience** có lẽ không phải thứ mà được nhiều người nhắc đến và quan tâm, chính xác hơn thì mình muốn nhắc đến development experience hay trải nghiệm phát triển một sản phẩm, và khi nhắc đến quá trình phát triển thì những người liên quan từ PM, Dev Team, PO,...
 
 >  Tại sao **DX** lại quan trọng? 
 
-Điều đầu tiên cần nhắc đến, nhất là với các công ty outsourcing thậm chí là product thì một trải nghiệm phát triển tốt sẽ tiết kiệm được rất nhiều chi phí cho qua trình xây dựng phần mềm. Tạm thời chúng ta có thể hiểu DX là một trải nghiệm phát triển nhanh gọn, ít bug, dễ dang thay đổi nâng cấp mở rộng và dễ dàng ứng biến với các yếu tố khác quan như đổi team, đổi sp, đổi khách hàng.
+Điều đầu tiên cần nhắc đến, nhất là với các công ty outsourcing thậm chí là product thì một trải nghiệm phát triển tốt, sẽ tiết kiệm được rất nhiều chi phí cho quá trình xây dựng phần mềm. Tạm thời chúng ta có thể hiểu DX là một trải nghiệm phát triển nhanh gọn, ít bug, dễ dang thay đổi nâng cấp mở rộng và dễ dng ứng biến với các yếu tố khác quan như đổi team, đổi sp, đổi khách hàng.
 
 Mội **DX** tốt có nghĩa là team phát triển sẽ có quền kiểm soát tối đa với code base, hiểu rõ sản phẩm nên sẽ xây dựng sp chất lượng cao hơn. góp phần tăng UX.
 
