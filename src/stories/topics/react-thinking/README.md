@@ -78,6 +78,11 @@
 
 ![](https://cdn-images-1.medium.com/max/1600/1*T_Q66EkNEhca6TyrvY1xBQ.gif)
 
+![](https://pbs.twimg.com/media/D1Tp_IPXcAAVraX.jpg)
+
+### Example 
+
+![](https://bezkoder.com/wp-content/uploads/2020/03/react-jwt-authentication-project-overview.png)
 ### What is Virtual DOM
 
 Trong React, với mỗi DOM object sẽ có một Virtual DOM object tương ứng. Một virtual DOM object là một virtual representation của một DOM object, có thể hiểu nôm na virtual DOM là một bản copy của DOM.
