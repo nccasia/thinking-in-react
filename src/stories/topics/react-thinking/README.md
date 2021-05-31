@@ -70,7 +70,7 @@
 
 ## How React work
 
-![])(https://drek4537l1klr.cloudfront.net/thomas/Figures/04fig03_alt.jpg)
+![](https://drek4537l1klr.cloudfront.net/thomas/Figures/04fig03_alt.jpg)
 
 ![](https://cdn-images-1.medium.com/max/1600/1*PBgAz9U9SrkINPo-n5glgw.gif)
 
