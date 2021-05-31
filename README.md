@@ -36,7 +36,7 @@ Ngoài các session chính mình sẽ có một số topic nâng cao hơn cho c�
 Các session cùng chung topic sẽ được đánh dấu *
 
 - [Thế nào là một UI tốt?](./src/stories/topics/good-ui/README.md)
-- [React giải quết vấn đề như thế nào?](./src/stories/topics/react-thining/README.md)
+- [React giải quết vấn đề như thế nào?](./src/stories/topics/react-thinking/README.md)
 - [Cấu trúc module thế nào thì ok? (*)](./src/stories/topics/module-structure/README.md)
 - [Cấu trúc Component thế nào thì ok (*)](./src/stories/topics/components-structure/README.md)
 - [Quản lý Global State thế nào? (**)](./src/stories/topics/global-state-management/README.md)
